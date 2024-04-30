@@ -1,0 +1,104 @@
+body{
+    overflow-x: hidden !important;    
+}
+#post{
+    background-color: white;
+    max-width: 52%;
+    margin: auto;
+}
+.profile-container{
+    background-color: #f1f1f1;
+}
+.highlights{
+    margin-left: -5rem;
+}
+
+
+/*These media queries are for handling small responsivenes*/
+@media screen and (max-width: 800px) {
+    .profileItems {
+        flex-wrap: wrap;
+    }
+    .follow{
+        margin-left: 0rem !important;
+    }
+    .highlights{
+        margin-left: 1rem !important;
+    }
+    #post{
+        max-width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 496px) {
+    .iconbtn,
+    .bx-dots-horizontal
+    {
+        display: none;
+    }
+    .profile-details{
+        gap: 0;
+    }
+  }
+@media screen and (max-width : 520px){
+    .userProfile{
+        margin-left: 0rem !important;
+    }
+    .profileItems{
+        gap: 1rem !important;
+        padding-left: 2rem;
+    }
+    .userImg img{
+        width: 5rem !important;
+    }
+    #user-username{
+        padding-left: 3rem;
+    }
+    span{
+        font-size: 0.8rem;
+    }
+    .profile-details{
+        gap: 1rem !important;
+    }
+}  
+@media screen and (min-width : 320px) and (max-width: 495px)
+{
+    .btn-primary
+    {
+        width : 50vw;
+        font-size: 0.7rem;
+        padding: 0;
+    }
+    .btn-light{
+        display : none
+    }
+    .profile-details{
+        display: none !important;
+    }
+    .Bio{
+   font-size: 0.7rem;
+    margin-left: -4rem;
+    margin-top: 2rem;
+    }
+    .paragraph{
+    font-size: 0.7rem;
+    margin-left: -4rem;
+    margin-top: -1rem;
+    }  
+    .highlights {
+    margin-left: 0.3rem !important; 
+    }
+    .stories_img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .story_name {
+        font-size: 0.6rem;
+        top: 120%;
+        left: -0.4rem;
+    }
+    #post{
+        max-width: 95%;
+    }
+    }
+

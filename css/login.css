@@ -1,0 +1,44 @@
+.text-decoration-none:hover {
+    text-decoration: dotted;
+  }
+.bg-holder{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.btn i{
+    vertical-align: -0.4vh;
+}
+.div-content-center{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #999;
+}
+.divider{
+    margin: 2rem 0;
+}
+.btn-outline-custom{
+    border-color: #ddd ;
+    color: #31374a;
+}
+.btn-outline-custom:hover{
+    border-color: #ddd ;
+    color: #31374a;
+    background-color: #dad9d9;
+}

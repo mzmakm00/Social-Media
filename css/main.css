@@ -1,0 +1,390 @@
+:root {
+    --primary-color-hue: 252;
+    --dark-color-lightness: 17%;
+    --light-color-lightness: 95%;
+    --white-color-lightness: 100%;
+    --color-white: hsl(252, 30%, var(--white-color-lightness));
+    --color-light: hsl(252, 30%, var(--light-color-lightness));
+    --color-grey: hsl(252, 15%, 65%);
+    --color-primary: hsl(var(--primary-color-hue), 75%, 60%);
+    --color-secondary: hsl(252, 100%, 90%);
+    --color-success: hsl(120, 95%, 65%);
+    --color-danger: hsl(0, 95%, 65%);
+    --color-dark: hsl(252, 30%, var(--dark-color-lightness));
+    --color-black: hsl(252, 30%, 10%);
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
+body{
+    background-color: #dee2e6
+}.navbar-brand .social {
+    color: rgb(167, 3, 167);
+    font-weight: bold;
+  }
+  .navbar-brand .app {
+    color: black;
+    font-weight: bold;
+  }
+  .navbar-brand:hover .social, .navbar-brand:hover .app {
+    color: black;
+  }
+.div{
+   display: flex;
+   align-items: center;
+   border: 1px solid rgb(240, 240, 240);
+   border-radius: 10px;
+}
+.focused {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow as per your preference */
+}
+input{
+    outline: none;
+    border: none !important;
+}
+input:focus{
+   border: none;
+}
+.bxs-plus-square,
+.bx-video ,
+.icon_indiv,
+.icon_notif
+{
+    font-size: 1.5rem;
+}
+.icon_indiv
+{
+    height: 40px; 
+    width: 45px;
+}
+.userImage,
+.userImagedrop{
+    width:  2.5rem;
+}
+.icon_notif{
+    height: 40px; 
+    width: 45px; 
+    color: purple;
+}
+.mentions{
+    height: 40px;
+    width:  40px;
+}
+#mentionparagraph{
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    color: #bebebe;
+}
+#notif_para{
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+
+}
+.time{
+   color: #bebebe;
+}
+.mentionspan{
+    font-weight: 700;
+}
+.notifications
+{
+    width: 10vw;
+} 
+.see_all{
+    color: #bebebe;
+}
+
+.categories{
+    font-size: 0.8rem;
+
+}
+.cat-product,
+.cat-Illustr,
+.cat-website{
+    background-color: #e7e7e7;
+}
+#left_imgs {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+#mikebirdy_img img{
+    height: 60px;
+    width: 65px;
+    border-radius:10px
+}
+#karolina_img {
+    margin-left: 6%;
+}
+#karolina_img img{
+    height: 60px; 
+    width: 65px;
+    border-radius:10px
+}
+#sherlocked_img img{
+    height: 60px; 
+    width: 65px ;
+    border-radius:10px
+}
+#kiara_img{
+    margin-left: 6%;
+}
+#kiara_img img{
+    height: 60px; 
+    width: 65px;
+    border-radius:10px  
+}
+#camera_img img{
+    height: 128px; 
+    width: 90px;
+    border-radius:10px
+}
+#camera_imgone img{
+    height: 128px; 
+    width: 90px;
+    border-radius:10px
+}
+.mystory{
+    background-color: #bebebe;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid rgb(180, 180, 180);    
+}
+.stories {
+    background-color: #bebebe;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid purple;
+}
+.stories_img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    padding: 0.1rem;
+}
+.mystory_icon {
+    top: 55%;
+    width: 2rem;
+    height: 2rem;
+    left: 70%;
+    background-color: darkmagenta;
+}
+.story_name{
+    font-size: 0.8rem;
+    top: 120%;
+    left: 10%;
+}
+#post_name{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #bebebe;
+}
+.liked-by span:first-child {
+    margin: 0;
+}
+.liked-by span {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-left: -0.6rem;
+}
+.liked-by span img {
+    display: block;
+    width: 100%;
+}
+.liked-by p {
+    margin-left: 0.5rem;
+}
+.feed-profile-img,
+.msgprofile_img{
+    width: 3rem;
+}
+.comment-profile-img{
+    width: 1.5rem;
+}
+.photo{
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
+.action-buttons {
+    font-size: 1.4rem;
+    margin: 0.6rem 0;
+}
+.span_interactions{
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+.comments{
+    font-size: 0.8rem;
+} 
+::-webkit-scrollbar{
+    display: none;
+}
+.leftsidebar_Column,
+.feedColumn,
+.right
+{
+    height: 87vh;
+}
+.main-container{
+    overflow: auto;
+    height: 90vh;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.messages i {
+    font-size: 1.4rem;
+}
+.search-bar {
+    display: flex;
+    margin-bottom: 1rem;
+    background: var(--color-light);
+    border-radius: var(--border-radius);
+    padding: var(--search-padding);
+}
+.search-bar input[type="search"] {
+    background: transparent;
+    width: 100%;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-dark);
+}
+.right .messages .category .active {
+    border-color: var(--color-dark);
+}
+.right .messages .message-requests {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+.right .messages .category h6 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid var(--color-light);
+    padding-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.right .messages .message {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+.msgprofile-div{
+    position: relative;
+    overflow: visible;
+}
+.msgprofile-div{
+    width: 2.7rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.right .messages .message h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.right .messages .message p {
+
+        font-size: 0.8rem;
+        line-height: 0.5rem;
+}
+.comment-post{
+        top: 0;
+        left: 29rem;
+}
+.options-menu {
+    display: none;
+}
+.options {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 15vw;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 125%;
+    right: -190%;
+}
+#container {
+    position: relative;
+}
+.userName{
+    cursor: pointer;
+}
+#container:hover .dropdown-content {
+    display: block;
+}
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.user-details span{
+    font-size: 0.8rem;
+}
+.username{
+    color : var(--color-grey);
+    padding-bottom : 1rem
+}
+.bx-user-plus,
+.bx-dots-horizontal{
+   font-size: 2rem;
+}
+
+.form-control:focus {
+    box-shadow: none
+}
+.message{
+    display: flex;
+}
+
+@media screen and (min-width: 1000px) and (max-width : 1200px )  {
+    #camera_img img,
+    #camera_imgone img {
+        width: 70px;
+        border-radius: 10px;
+    }
+    #camera_imgone img {
+        margin-left: 1rem;
+    }
+    #mikebirdy_img img {
+        width: 60px;
+        border-radius: 10px;
+    }
+    #karolina_img img,
+    #sherlocked_img img, 
+    #kiara_img img 
+    {
+        width: 63px;
+    } 
+}
+@media screen and (min-width: 1400px) {
+    #left_imgs{
+        width: 53%;
+    }
+}
+
