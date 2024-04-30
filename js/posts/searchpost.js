@@ -2,6 +2,7 @@ import fetchUser from "../main/fetchUsers.js";
 import PostRenderer from "./posthtml.js";
 import CommentImages from "./postcomments.js"
 import UserContainerHandler from "./showingUser.js";
+
 class PostFetcher {
     
     async fetchAndAppendPostsBySearch(query) {
@@ -28,6 +29,14 @@ class PostFetcher {
                 // Fetch user data associated with the post
                 const userData = await fetchUser.fetchUserData(post.userId);
 
+                // Fetch comments associated with the post
+                const commentsResponse = await fetch(`https://dummyjson.com/comments/post/${post.id}`);
+                if (!commentsResponse.ok) {
+                    throw new Error(`Failed to fetch comments for post ${post.id}`);
+                }
+                const commentsData = await commentsResponse.json();
+                const comments = commentsData.comments;
+
                 // Initialize an empty string to hold hashtags HTML
                 let hashtagsHTML = '';
                 
@@ -48,8 +57,8 @@ class PostFetcher {
 
                 // Get the container for comments associated with the post
                 const postContainer = card.lastElementChild.querySelector('.comments-container');
-                
-                // Load comments with images using CommentImages module
+
+                // Load comments with images if any
                 CommentImages.loadCommentsWithImages(comments, postContainer);
             }
         } catch (error) {
@@ -58,6 +67,5 @@ class PostFetcher {
         }
     }
 }
-
 const Postfetch = new PostFetcher();
 export default Postfetch;
