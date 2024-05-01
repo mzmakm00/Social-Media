@@ -121,18 +121,12 @@ Below the list of users, you'll find 10 posts showing. As you scroll down and re
 #### 5. Real-Time Reactions: 
 The reactions displayed on each post, represented by numbers, are real-time updates. These numbers reflect the current count of reactions received on the post.
 
-<<<<<<< HEAD
-![](images/reaction1.png)
-
-![](images/reaction2.png)       
-=======
 ![reactions1](/images/reaction1.png)
 
 ![reactions2](/images/reaction2.png)       
->>>>>>> 0d2de98680afb383c1faf5c4c00386fc0a5e47c7
 
 #### 6. Managing Comments: 
-  After posting a comment, three dots (...) icon will appear next to your comment. Click on these dots to reveal a dropdown menu with options to edit or delete your comment.
+After posting a comment, three dots (...) icon will appear next to your comment. Click on these dots to reveal a dropdown menu with options to edit or delete your comment.
   - To edit your comment, click on the "Edit" button, make your changes, and then click "Update".
 
 ![EditComment](images/editcomment.png)
@@ -162,9 +156,9 @@ On the right sidebar, you'll find a message box.You can also search Messages of 
 
 On the right sidebar When you slide scroll down, a list of all users from the API database will be displayed. You can click on any user to view their specific posts on the next page.
 
-![User1](images/user.png)
+![userr](images/user.PNG)
 
-![User2](images/USER1.png)
+![user](images/USER1.PNG)
 
 
 #### 10. Users Post
