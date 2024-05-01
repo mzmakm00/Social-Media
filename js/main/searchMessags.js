@@ -12,7 +12,6 @@ class MessageSearch {
 
     searchMessage() {
         const val = this.messageSearch.value.toLowerCase();
-        console.log(val);
         this.messageElements.forEach(message => {
             let name = message.querySelector('h5').textContent.toLowerCase();
             if (name.indexOf(val) !== -1) {

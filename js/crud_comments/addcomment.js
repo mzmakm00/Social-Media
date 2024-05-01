@@ -45,7 +45,6 @@ class CommentHandler {
             const inputField = event.target.parentElement.querySelector('input');
             const commentInput = event.target.parentElement;
             const commentText = inputField.value.trim();
-            console.log(commentText)
 
             if (commentText !== '') {
                 try {
@@ -93,7 +92,6 @@ class CommentHandler {
 
             if (response.ok) {
                 const responseData = await response.json();
-                console.log("Add Comment",responseData)
                 return responseData;
             } else {
                 throw new Error('Failed to post comment');

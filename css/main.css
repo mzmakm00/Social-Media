@@ -304,7 +304,7 @@ input:focus{
 }
 .comment-post{
         top: 0;
-        left: 29rem;
+        left: 89%;
 }
 .options-menu {
     display: none;
@@ -388,3 +388,15 @@ input:focus{
     }
 }
 
+@media screen  and (max-width : 380px){
+    .comment-post{
+        top: 0;
+        left: 83%;
+}
+}
+@media screen  and (max-width : 480px){
+    .comment-post{
+        top: 0;
+        left: 85%;
+}
+}

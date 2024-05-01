@@ -16,7 +16,7 @@ async function checkAllFunctionsLoaded() {
         userHandler.currentUserImg(),      // Retrieves current user's image
         AllUsersData.showUserStories(),    // Showing user stories
         userPageHandler.showAllUsers(),    // Showing all users
-        commentHandler.postComment(),      // Posts a comment
+        // commentHandler.postComment(),      // Posts a comment
         messageSearch.searchMessage()      // Searches for a message
     ]);
 }

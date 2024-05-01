@@ -114,16 +114,16 @@ Below the list of users, you'll find 10 posts showing. As you scroll down and re
 - Each post will have its own comments section , to write comments on a post, click on the comment icon associated with that post.
 - To add your own comment, click on the icon  and an input field will appear at the end of the post. Add your comment and and click on Post button
 
-![Main Page](images/main.png)
+![Main Page](images/main.PNG)
 
 ![commentIcon](images/commentIcon.png)
 
 #### 5. Real-Time Reactions: 
 The reactions displayed on each post, represented by numbers, are real-time updates. These numbers reflect the current count of reactions received on the post.
 
-![reactions1](images/reaction1.png)
+![](images/reaction1.png)
 
-![reactions2](images/reaction2.png)       
+![](images/reaction2.png)       
 
 #### 6. Managing Comments: 
   After posting a comment, three dots (...) icon will appear next to your comment. Click on these dots to reveal a dropdown menu with options to edit or delete your comment.

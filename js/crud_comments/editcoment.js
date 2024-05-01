@@ -37,14 +37,11 @@ class CommentEditor {
     }
   
     async handlePostButtonClick() {
-      console.log(this.commentInput)
       const newCommentText = this.commentInput.value.trim();
-      console.log(newCommentText)
       try {
         // Edit the comment on the server
         const editedCommentData = await this.editComment(newCommentText);
-        console.log("Edited comment:", editedCommentData);
-  
+
         // Update the comment text element with the new text
         this.commentTextElement.textContent = newCommentText;
   
@@ -57,7 +54,6 @@ class CommentEditor {
     }
   
     async editComment(newCommentText) {
-      console.log("new comment Text", newCommentText)
       try {
         const response = await fetch(`https://dummyjson.com/comments/1`, {
           method: 'PATCH', // or 'PATCH' depending on your API
@@ -69,8 +65,7 @@ class CommentEditor {
   
         if (response.ok) {
           const responseData = await response.json();
-          console.log(responseData);
-    
+          
           return responseData; // Return the edited comment data
         } else {
           throw new Error('Failed to edit comment');

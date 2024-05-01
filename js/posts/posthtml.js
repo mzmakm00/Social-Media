@@ -66,7 +66,7 @@ class PostRenderer {
                 <!--Comment Input-->
                 <div class="comment-input mt-3 position-relative" style = "display: none;">
                     <input type="text" class="form-control " placeholder="Add a comment......">
-                    <button class="btn btn-primary position-absolute comment-post" data-post-id="${post.id}">Post</button>
+                    <button class="btn btn-primary position-absolute comment-post" data-post-id="${post.id}">Add</button>
                 </div>
 
                 <!-- Update input field 

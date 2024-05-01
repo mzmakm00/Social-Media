@@ -1,6 +1,5 @@
 // username: 'kminchelle',
 // password: '0lelplR',
-
 class LoginManager {
   constructor() {
     // Get references to the username and password input fields
