@@ -121,8 +121,7 @@ Below the list of users, you'll find 10 posts showing. As you scroll down and re
 #### 5. Real-Time Reactions: 
 The reactions displayed on each post, represented by numbers, are real-time updates. These numbers reflect the current count of reactions received on the post.
 
-![reactions1](/images/react
-.png)
+![reactions1](/images/react.png)
 
 ![reactions2](/images/reaction2.png)       
 
