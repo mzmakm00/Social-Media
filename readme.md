@@ -121,9 +121,9 @@ Below the list of users, you'll find 10 posts showing. As you scroll down and re
 #### 5. Real-Time Reactions: 
 The reactions displayed on each post, represented by numbers, are real-time updates. These numbers reflect the current count of reactions received on the post.
 
-![reactions1](/images/react.png)
+![reactions1](/images/reaction1.PNG)
 
-![reactions2](/images/reaction2.png)       
+![reactions2](/images/reaction2.PNG)       
 
 #### 6. Managing Comments: 
 After posting a comment, three dots (...) icon will appear next to your comment. Click on these dots to reveal a dropdown menu with options to edit or delete your comment.
