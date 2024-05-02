@@ -116,28 +116,22 @@ Below the list of users, you'll find 10 posts showing. As you scroll down and re
 
 ![Main Page](images/main.PNG)
 
-![commentIcon](images/commentIcon.png)
+![commentIcon](images/commentIcon.PNG)
 
 #### 5. Real-Time Reactions: 
 The reactions displayed on each post, represented by numbers, are real-time updates. These numbers reflect the current count of reactions received on the post.
 
-<<<<<<< HEAD
-![](images/reaction1.png)
+![reactions1](/images/reaction1.PNG)
 
-![](images/reaction2.png)       
-=======
-![reactions1](/images/reaction1.png)
-
-![reactions2](/images/reaction2.png)       
->>>>>>> 0d2de98680afb383c1faf5c4c00386fc0a5e47c7
+![reactions2](/images/reaction2.PNG)       
 
 #### 6. Managing Comments: 
-  After posting a comment, three dots (...) icon will appear next to your comment. Click on these dots to reveal a dropdown menu with options to edit or delete your comment.
+After posting a comment, three dots (...) icon will appear next to your comment. Click on these dots to reveal a dropdown menu with options to edit or delete your comment.
   - To edit your comment, click on the "Edit" button, make your changes, and then click "Update".
 
-![EditComment](images/editcomment.png)
+![EditComment](images/editcomment.PNG)
 
-![UpdateComment](images/updaatecomen.png)
+![UpdateComment](images/updaatecomen.PNG)
 
 
 
@@ -162,9 +156,9 @@ On the right sidebar, you'll find a message box.You can also search Messages of 
 
 On the right sidebar When you slide scroll down, a list of all users from the API database will be displayed. You can click on any user to view their specific posts on the next page.
 
-![User1](images/user.png)
+![userr](images/user.PNG)
 
-![User2](images/USER1.png)
+![user](images/USER1.PNG)
 
 
 #### 10. Users Post
@@ -184,18 +178,17 @@ when you click on its name then you will redirect to the next page and see his a
 
 On the top right corner of the main page, you'll see the user's profile picture. Clicking on this picture the dropdown will be show where the username along with its picture will be show and clicking on this picture will allow you to view your own specific posts.
 
-![Logout](images/logout.png)
+![Logout](images/logout.PNG)
 
-![user](images/specificUser.png)
+![user](images/specificUser.PNG)
 
 
 #### 12 Logging Out:
 To logout, simply click on your profile picture on the top right corner of the main page. A dropdown menu will appear, providing an option to logout. Click on "Logout" to log out of the current user session.
 
-
-![Logout](images/logout.png)
+![Logout](images/logout.PNG)
 
 #### 13 Session Expired : 
 After 30 minutes when your seesion will expire then this alert will be display to the user
 
-![session](images/session.png)
+![session](images/session.PNG)
